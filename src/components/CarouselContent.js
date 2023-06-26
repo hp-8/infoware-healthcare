@@ -2,47 +2,48 @@ import React, { useState } from 'react';
 import './CarouselContent.css'
 
 const reviewsData = [
+  
   {
     id: 1,
-    title: 'Review 1',
-    image: 'https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/usnwr/usnwr-23-24/640x274-jhm-slider.jpg',
-    text: 'lasfdladkjfalkjfasa laksdjfalksjdf alksdjfalkdjf alksdjflakdsjf laksdjflaksdjalh alsdkjfaoiewo',
-  },
-  {
-    id: 2,
     title: 'Review 2',
     image: 'https://www.hopkinsmedicine.org/_includes/_images/somconvocation23-homepage.jpg',
     text: 'This is the second review.',
   },
   {
+    id: 2,
+    title: 'The Johns Hopkins University School of Medicine Class of 2023 Convocation ',
+    image: 'https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/usnwr/usnwr-23-24/640x274-jhm-slider.jpg',
+    text: 'Congratulations to our School of Medicine graduates.',
+  },
+  {
     id: 3,
-    title: 'Review 3',
+    title: 'Top Ranked by U.S. News & World Report – Again!',
     image: 'https://www.hopkinsmedicine.org/sebin/l/y/USN2207005_SC_homepage-slider-640x274.png',
-    text: 'This is the third review.',
+    text: 'The Johns Hopkins Hospital is proud to be ranked #5 in the country and #1 in Maryland on U.S. News & World Report x’s Best Hospitals list.',
   },
   {
     id: 4, 
-    title: 'Review 4',
+    title: 'Ensuring Equitable Access to Health Care for Our Communities',
     image: 'https://www.hopkinsmedicine.org/sebin/x/b/bayview-bus.jpg',
-    text: 'This is the fourth review.',
+    text: 'We are developing new ways to reach all populations — with specific consideration for vulnerable ones — to provide access to essential COVID-19 information and services.',
   },
   {
     id: 5,
-    title: 'Review 5',
+    title: 'COVID-19 Vaccine Information and Updates',
     image: 'https://www.hopkinsmedicine.org/sebin/n/l/vaccine.jpg',
-    text: 'This is the fifth review.',
+    text: 'Johns Hopkins Medicine is actively monitoring and assessing all information on the COVID-19 vaccines. Get the latest updates.',
   },
   {
     id: 6,
-    title: 'Review 6',
+    title: 'Let us help you find your way!',
     image: 'https://www.hopkinsmedicine.org/sebin/v/b/wayfinding-slider.png',
-    text: 'This is the sixth review.',
+    text: 'Traveling to The Johns Hopkins Hospital or Bayview Medical Center? The new Find Your Way app offers step-by-step directions to appointments and more.',
   },
   {
     id: 7,
-    title: 'Review 7',
+    title: 'Sign Up for MyChart',
     image: 'https://www.hopkinsmedicine.org/sebin/p/w/new-mychart-features.png',
-    text: 'This is the seventh review.',
+    text: 'Current patients can complete an online form from the convenience of home to communicate with providers, access test results, request prescription renewals and manage appointments.',
   },
 ];
 
