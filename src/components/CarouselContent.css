@@ -1,8 +1,7 @@
 .review-slider {
-  
   height: 350px;
   display: flex;
-  flex-direction:row ;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -25,7 +24,6 @@
   height: 100%;
   display: flex;
   align-items: center;
-  width: 1050px;
   margin: 0 20px;
 }
 
@@ -53,6 +51,7 @@
   font-size: 1.2rem;
   line-height: 1.5;
 }
+
 .indicator-container {
   display: flex;
   justify-content: center;
@@ -72,4 +71,23 @@
 
 .indicator.active {
   background-color: #0267e3;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 767px) {
+  .review-container {
+    flex-direction: column;
+  }
+
+  .review-image,
+  .review-details {
+    flex: 1 1 auto;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .review-image img {
+    height: 100%;
+  }
 }
