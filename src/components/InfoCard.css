@@ -2,7 +2,7 @@
 
 .Card-container {
   margin: 25px;
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
 }
