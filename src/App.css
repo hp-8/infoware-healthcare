@@ -1,6 +1,7 @@
-
+* {
+  background-color: bisque;
+}
 .App {
-  background-color: beige;
   text-align: center;
   padding: 1rem;
 }
