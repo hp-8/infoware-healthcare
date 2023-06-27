@@ -1,7 +1,8 @@
 .review-slider {
+  
   height: 350px;
   display: flex;
-  flex-direction: row;
+  flex-direction:row ;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -9,11 +10,22 @@
   margin-bottom: -12px;
 }
 
+.arrow {
+  font-weight: 800;
+  color: #a5a5a5;
+  opacity: 0.6;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
 .review-container {
   height: 100%;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 1050px;
   margin: 0 20px;
 }
 
@@ -25,7 +37,6 @@
   width: 100%;
   height: auto;
   border-radius: 10px;
-  object-fit: cover; /* Ensures the image maintains its aspect ratio */
 }
 
 .review-details {
@@ -42,7 +53,6 @@
   font-size: 1.2rem;
   line-height: 1.5;
 }
-
 .indicator-container {
   display: flex;
   justify-content: center;
@@ -63,8 +73,3 @@
 .indicator.active {
   background-color: #0267e3;
 }
-
-/* Responsive Styles */
-
-
-

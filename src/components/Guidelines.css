@@ -1,6 +1,7 @@
 /* Default styles */
 
 .two-col-teaser {
+  
   display: flex;
   align-items: flex-start;
 }
@@ -61,41 +62,24 @@
 
 /* Responsive styles */
 
-/* Small screens (320px - 767px) */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  /* Adjust the layout for smaller screens */
+
+  .module-wrap {
+    flex-direction: column;
+  }
+
+  .teaser-content {
+    font-size: 20px;
+  }
+
   .teaser-img {
     width: 100%;
     text-align: center;
     margin-top: 30px;
   }
 
-  .teaser-content {
-    font-size: 20px;
-  }
-}
-
-/* Medium screens (768px - 1279px) */
-@media (min-width: 768px) and (max-width: 1279px) {
-  .teaser-img {
-    width: 50%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .teaser-content {
-    font-size: 18px;
-  }
-}
-
-/* Large screens (1280px and above) */
-@media (min-width: 1280px) {
-  .teaser-img {
-    width: 40%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .teaser-content {
-    font-size: 16px;
+  .content-body {
+    margin-top: 0;
   }
 }
