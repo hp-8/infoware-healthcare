@@ -66,57 +66,5 @@
 
 /* Responsive Styles */
 
-/* 1. 320px - 767px */
-@media (min-width: 320px) and (max-width: 767px) {
-  .review-slider {
-    flex-direction: column;
-    height: auto; /* Adjust the height to fit the content */
-  }
 
-  .review-container {
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0; /* Add some margin to separate the containers */
-  }
-
-  .review-image {
-    flex: 0 0 100%;
-    margin-bottom: 10px; /* Add some spacing between the image and details */
-  }
-
-  .review-image img {
-    height: auto; /* Reset the height for smaller screens */
-  }
-
-  .review-details {
-    flex: 0 0 100%;
-    margin-top: 0; /* Remove top margin to align with the image */
-  }
-
-  .indicator-container {
-    margin-top: 10px; /* Adjust the margin for spacing */
-  }
-}
-
-/* 2. 768px - 1279px */
-@media (min-width: 768px) and (max-width: 1279px) {
-  .review-slider {
-    height: 400px; /* Adjust the height to fit the content */
-  }
-
-  .review-container {
-    margin: 0 30px; /* Increase the margin for more spacing */
-  }
-}
-
-/* 3. 1280px - max screen resolution */
-@media (min-width: 1280px) {
-  .review-slider {
-    height: 450px; /* Adjust the height to fit the content */
-  }
-
-  .review-container {
-    margin: 0 40px; /* Increase the margin for more spacing */
-  }
-}
 
