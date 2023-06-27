@@ -1,25 +1,27 @@
+/* Default styles for all screen sizes */
+
 .Card-container {
   margin: 25px;
-  width: 1604;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .card {
-  justify-content: center;
   width: 100%;
   max-width: 400px;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
-  margin-bottom: 12px; /* Decrease the margin-bottom for tighter spacing */
+  margin-bottom: 12px; 
   margin-top: 10px;
   margin-right: 1px;
   margin-left: 1px;
   display: flex;
   padding: 10px;
   justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.14); /* Add a lightly visible border */
+  border: 1px solid rgba(0, 0, 0, 0.14); 
 }
 
 .card:hover {
@@ -27,19 +29,14 @@
 }
 
 .card-content {
-  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
-  width: 100%;
 }
 
 .content {
-  position: relative;
-  align-content: flex-start;
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,4 +96,43 @@ p {
 
 .card:hover .icon {
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+
+/* Media queries for different screen sizes */
+
+/* 320px - 767px */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .Card-container {
+    margin: 10px;
+  }
+  
+  .card {
+    max-width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+/* 768px - 1279px */
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .Card-container {
+    margin: 15px;
+  }
+  
+  .card {
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
+}
+
+/* 1280px and above */
+@media only screen and (min-width: 1280px) {
+  .Card-container {
+    margin: 20px;
+  }
+  
+  .card {
+    max-width: 33.33%;
+    margin-bottom: 12px;
+  }
 }
