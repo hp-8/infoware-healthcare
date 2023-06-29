@@ -1,0 +1,198 @@
+/* header.css */
+
+/* Common styles for all screen sizes */
+header {
+  font-weight: 400;
+  line-height: 1.75;
+  color: #1c1c1c;
+  font-family: Noto Sans, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header-logo {
+  background-color: rgba(16, 16, 117, 0.928);
+  border: none;
+  padding: 8px;
+  width: 175px;
+  margin-right: 15px;
+}
+
+.menu {
+  height: 55.55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.menu-button {
+  background-color: transparent; /* Updated to transparent */
+  height: 55.55px;
+  width: 100px;
+  border: none;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.menu-button:hover {
+  border-style: solid;
+  border-color: #194cf3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+.blank-space {
+  flex-grow: 1;
+  border: none;
+  margin: 0 1rem;
+}
+
+.covid,
+.search {
+  display: flex;
+  align-items: center;
+  size: 18px;
+  height: 55.55px;
+}
+
+.covid-info,
+.search-text {
+  height: 100%;
+  background-color: transparent; /* Updated to transparent */
+  width: 160px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+.covid-info:hover,
+.search-text:hover {
+  border-style: solid;
+  border-color: #194cf3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the blurred elements */
+.blur {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+/* Additional styles for the dynamic menu options */
+.menu-options-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9); /* Updated to transparent with slight opacity */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added shadow effect */
+  z-index: 1;
+}
+
+.menu-options {
+  text-align: left;
+  border-right: solid black 2px;
+  width: 50%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-options li {
+  padding: 10px 0;
+}
+
+.menu-options li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu-options li a:hover {
+  border-radius: 3px;
+  background-color: #333;
+  color: white;
+}
+
+.detail-pages {
+  text-align: left;
+  width: 50%;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 12px;
+}
+
+.detail-pages li {
+  padding: 10px 0;
+}
+
+.detail-pages li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.detail-pages li a:hover {
+  border-radius: 3px;
+  background-color: #333;
+  color: white;
+}
+
+@media (max-width: 480px) {
+ 
+
+  .header-logo {
+    display: none;
+  }
+
+  .menu-button,
+  .covid-info,
+  .search-text {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  .menu {
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .covid,
+  .search {
+    flex-grow: 0;
+    
+  }
+
+  .covid-info,
+  .search-text {
+    width: 80px;
+    font-size: 10px;
+  }
+}
