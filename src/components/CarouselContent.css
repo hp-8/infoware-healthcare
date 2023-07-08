@@ -1,0 +1,133 @@
+.review-slider {
+  
+  height: 350px;
+  display: flex;
+  flex-direction:row ;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 6%;
+}
+
+.arrow {
+  font-weight: 800;
+  color: #a5a5a5;
+  opacity: 0.6;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.review-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 1050px;
+  margin: 0 20px;
+}
+
+.review-image {
+  flex: 0 0 60%;
+}
+
+.review-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.review-details {
+  flex: 0 0 40%;
+  margin-left: 15px;
+}
+
+.review-title {
+  
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  text-align: justify;
+  margin-top:28px ;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.indicator-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.indicator.active {
+  background-color: #0267e3;
+}
+
+/* 1. 320px - 767px */
+@media (min-width: 320px) and (max-width: 767px) {
+  .review-slider {
+    
+    height: auto; /* Adjust the height to fit the content */
+  }
+
+  .review-container {
+   flex-direction: column;
+    align-items: center;
+    margin: 10px 0; /* Add some margin to separate the containers */
+  }
+
+  .review-image {
+    flex: 0 0 100%;
+    margin-bottom: 10px; /* Add some spacing between the image and details */
+  }
+
+  .review-image img {
+    height: auto; /* Reset the height for smaller screens */
+  }
+
+  .review-details {
+    flex: 0 0 100%;
+    margin-top: 0; /* Remove top margin to align with the image */
+  }
+
+  .indicator-container {
+    margin-top: 10px; /* Adjust the margin for spacing */
+  }
+}
+
+/* 2. 768px - 1279px */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .review-slider {
+    height: 400px; /* Adjust the height to fit the content */
+  }
+
+  .review-container {
+    margin: 0 30px; /* Increase the margin for more spacing */
+  }
+}
+
+/* 3. 1280px - max screen resolution */
+@media (min-width: 1280px) {
+  .review-slider {
+    height: 450px; /* Adjust the height to fit the content */
+  }
+
+  .review-container {
+    margin: 0 40px; /* Increase the margin for more spacing */
+  }
+}
