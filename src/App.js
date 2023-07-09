@@ -11,6 +11,8 @@ import Slider from './components/Slider';
 import Appointments from './pages/appointment';
 import AppointmentForm from './pages/appointmentForm';
 import Location from './pages/location'
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 import './App.css';
 
