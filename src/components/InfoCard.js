@@ -32,7 +32,7 @@ const InfoCard = () => {
     {
       title: "MyChart", 
       description: "View test results, schedule most appointments, and more.",
-      link: "#",
+      link: "/myChart",
       icon: "https://www.hopkinsmedicine.org/_images/_svg/mychart-blue.svg"
     }
   ];

@@ -90,7 +90,7 @@ function Location() {
       {userLatitude && userLongitude && (
         <div className="map-container">
             
-          <Map latitude={userLatitude} longitude={userLongitude} />
+          <Map latitude={userLatitude || 51.505} longitude={userLongitude || -0.09} />
         </div>
       )}
     </div>

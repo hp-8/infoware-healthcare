@@ -52,7 +52,7 @@ function Header() {
             <li><a href='#'>School of Medicine</a></li>
           </ul>
           <ul className='detail-pages'>
-            <li><a href='#'>MyChart</a></li>
+            <li><Link to='/myChart'>MyChart</Link></li>
             <li><Link to='/Appointments'>Schedule an Appointment</Link></li>
             <li><Link to="/Doctors">Find a Doctor</Link></li>
             <li><a href='#'>Pay Your Bill</a></li>

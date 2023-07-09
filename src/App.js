@@ -11,8 +11,10 @@ import Slider from './components/Slider';
 import Appointments from './pages/appointment';
 import AppointmentForm from './pages/appointmentForm';
 import Location from './pages/location';
+import MyChart from './pages/myChart';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+
 
 import './App.css';
 
@@ -24,14 +26,14 @@ const ConditionalComponents = () => {
     pathname === '/Doctors' ||
     pathname === '/Appointments' ||
     pathname === '/appointmentform' ||
-    pathname === '/Location'
+    pathname === '/Location' ||
+    pathname === '/myChart'
   ) {
     return null;
   }
 
   return (
     <>
-      <Slider />
       <Guidelines />
       <PaymentSection />
       <CarouselContent />
@@ -60,6 +62,7 @@ const App = () => {
           <Route path="/Appointments" element={<Appointments />} />
           <Route path="/appointmentform" element={<AppointmentForm />} />
           <Route path="/Location" element={<Location />} />
+          <Route path="/MyChart" element= {<MyChart/>} />
         </Routes>
         <ConditionalComponents />
       </div>
