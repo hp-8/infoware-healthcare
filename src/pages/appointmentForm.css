@@ -71,7 +71,7 @@ form {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    align-self: flex-end;
+    align-self: center;
   }
   
   button[type='submit']:hover {
