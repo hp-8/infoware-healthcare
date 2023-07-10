@@ -25,7 +25,7 @@ const CardSection = () => {
               </div>
               <div className="content">
           
-                <a href="https://www.hopkinsmedicine.org/forward/jhach" className="card-link">
+                <a href="#" className="card-link">
                   <span className="h3">Johns Hopkins All Children's Hospital</span>
                   <span className="arrow-container" aria-hidden="true">
                     <svg viewBox="0 0 24 24" focusable="false">
@@ -45,7 +45,7 @@ const CardSection = () => {
                 <img className="loading" src="https://www.hopkinsmedicine.org/johns-hopkins-childrens-center/_images/homepage/Lem-card-image.jpg" alt="Lem playing with an astronaut helmet" width="80" height="80" data-was-processed="true" />
               </div>
               <div className="content">
-                <a href="https://www.hopkinsmedicine.org/forward/jhcc" className="card-link">
+                <a href="#" className="card-link">
                   <span className="h3">Johns Hopkins Children's Center</span>
                   <span className="arrow-container" aria-hidden="true">
                     <svg viewBox="0 0 24 24" focusable="false">
