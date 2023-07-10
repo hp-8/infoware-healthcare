@@ -9,7 +9,7 @@ const AppointmentForm = () => {
   const [age, setAge] = useState('');
   const [mobile, setMobile] = useState('');
   const [email, setEmail] = useState('');
-  const [heightUnit, setHeightUnit] = useState('inches');
+  const [heightUnit, setHeightUnit] = useState('cm');
   const [weightUnit, setWeightUnit] = useState('kg');
 
 

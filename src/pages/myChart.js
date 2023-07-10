@@ -33,7 +33,7 @@ function MyChart() {
           value={password}
           onChange={(event) => setPassword(event.target.value)}
         />
-        <button type="submit">Login</button>
+        <button type="submit"className='myChart-submit'>Login</button>
       </form>
       <p>Don't have an account? <a href="#">Sign up</a></p>
       <p>MyChart is a service provided by Johns Hopkins Medicine. By using this service, you agree to the <a href="#">terms and conditions</a>.</p>
