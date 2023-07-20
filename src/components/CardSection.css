@@ -1,0 +1,210 @@
+.col-2-cards {
+    
+    font-weight: 400;
+    line-height: 1.75;
+    color: #1c1c1c;
+    font-family: Noto Sans,sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block;
+    border-width: 1rem;
+    border-style: solid;
+    background-color: #f8f8f8;
+    border-color: rgba(16,16,112,0.928);
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 79rem;
+  }
+
+  .contain {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .module-wrap-cs {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+  }
+  
+  .module-header {  
+    font-weight: 400;
+    line-height: 1.75;
+    color: #1c1c1c;
+    font-family: Noto Sans,sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0 auto 2rem;
+    width: 100%;
+    max-width: 45rem;
+  }
+  
+  .h2 {
+    box-sizing: border-box;
+    outline: 0 dotted #666;
+    margin-top: 0;
+    transition: font-size .3s;
+    color: rgba(16,16,112,0.928);
+    font-family: Noto Serif,serif;
+    font-size: 2.313rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+  
+  
+  .content-label {
+    display: block;
+    font-weight: 200;
+    margin-bottom: 28px;
+    font-weight: bold;
+  }
+  
+
+  .cards-description {
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: Noto Sans,sans-serif;
+    color: #000000;
+    font-size: 1.063rem;
+    line-height: 1.688rem;
+    text-align: center;
+    margin: auto;
+  }
+ 
+
+  .cards-container {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    width: 100%; 
+  }
+  
+
+  .col-2-item {  
+    flex: 1; 
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+  
+
+  .card-has-image {
+  margin-bottom:  25px;
+}
+  
+  .card-content {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .card-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #333;
+  }
+
+  
+  .h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  .arrow-container {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .card-media {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+
+  .loading {
+    width: 100%; 
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+  /* Styles for screen size 320px - 767px */
+  @media (max-width: 767px) {
+  .module-header {
+  max-width: 100%;
+  padding: 0 1rem;
+  }
+  
+
+  .h2 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    padding-right: 0.625rem;
+  }
+  
+
+  .cards-container {
+    flex-direction: column;
+  }
+
+
+  .col-2-item {
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+
+
+  .card-has-image {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/* Styles for screen size 768px - 1279px */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .module-wrap {
+    max-width: 90%;
+  }
+  
+  .h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+   
+  }
+}
+
+/* Styles for screen size 1280px and above */
+@media (min-width: 1280px) {
+  .module-wrap {
+    max-width: 1200px;
+  }
+
+  .h2 {
+    font-size: 2.313rem;
+    line-height: 2.75rem;
+    
+  }
+}

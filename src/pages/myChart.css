@@ -1,0 +1,70 @@
+/* myChart.css */
+
+.my-chart {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.my-chart h2 {
+  text-align: center;
+  color: #333;
+}
+
+.my-chart p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: black;
+}
+
+.my-chart form {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-chart label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.my-chart input[type="text"],
+.my-chart input[type="password"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.myChart-submit {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+} 
+
+.myChart-submit:hover {
+  background-color: #0056b3;
+}
+
+.my-chart a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.my-chart a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .my-chart {
+    max-width: 100%;
+  }
+}
