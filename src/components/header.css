@@ -1,0 +1,192 @@
+/* header.css */
+
+/* Common styles for all screen sizes */
+.header {
+  font-weight: 400;
+  line-height: 1.75;
+  background-color: rgba(16, 16, 112, 0.928); /* Updated background color */
+  color: white; /* Font and icon color set to white */
+  font-family: Noto Sans, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Updated to center header contents */
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  align-items: center; /* Align items vertically in the header */
+  height: 10vh;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu {
+  position: relative;
+}
+
+.header-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  border-bottom: 2px solid white;
+}
+
+.menu-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-options-container {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  min-width: 280px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menu-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-options li {
+  padding: 8px 0;
+}
+
+.menu-options li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.menu-options li a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+
+.detail-pages {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.detail-pages li {
+  padding: 8px 0;
+}
+
+.detail-pages li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.detail-pages li a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Responsive styles for screen sizes between 320px and 768px */
+@media (min-width: 320px) and (max-width:768px) {
+  .header-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .header-buttons {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo-image {
+    margin-bottom: 10px;
+  }
+
+  .header-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.sec1 , .sec2 {
+  flex: 1;
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+  .header-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .header-buttons {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo-image {
+    margin-bottom: 10px;
+  }
+
+  .header-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  /* Add the following styles for sec1 and sec2 */
+  .sec1,
+  .sec2 {
+    width: 100%;
+  }
+}

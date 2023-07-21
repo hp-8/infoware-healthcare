@@ -1,0 +1,88 @@
+/* PaymentSection.css */
+
+/* Styles for the container and positioning */
+.featured-content-block-module {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.two-col-teaser {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.teaser-content-ps {
+  flex: 1;
+  padding: 20px;
+  max-width: 635px;
+}
+
+.teaser-img-ps {
+  flex: 1;
+  max-width: 645px;
+  margin-left: 20px;
+}
+
+.teaser-img-ps img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Heading and text styles */
+.content-title-ps h2 {
+  color: #0c4cad;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.content-ps {
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.content-ps ul {
+  text-align: left;
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.content-ps li {
+  margin-bottom: 10px;
+}
+
+.content-ps .content-header {
+  font-weight: bold;
+  color: #0c4cad;
+}
+
+/* Media Queries */
+@media (max-width: 780px) {
+  .two-col-teaser {
+    flex-direction: column;
+  }
+
+  .teaser-img-ps {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .teaser-content-ps {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .content-title-ps h2 {
+    font-size: 26px;
+  }
+}

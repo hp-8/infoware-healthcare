@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-h2 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
+}
+
+.text-container-ap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.text-content-ap {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: large;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p.filler {
+  color: #000000;
+  text-align: left;
+  margin-top: -12px;
+  font-size: 19px;
+  margin: 0;
+}
+
+.ScheduleApp {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ScheduleApp:hover {
+  background-color: #0056b3;
+}
+
+.ScheduleApp:focus {
+  outline: none;
+}
+
+/* New styles for the appointment form */
+.appointment-form-container {
+  max-width: 600px;
+  width: 80%;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.appointment-form-fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.appointment-form-legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.appointment-form-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.appointment-form-label span {
+  margin-right: 10px;
+  min-width: 120px;
+  display: inline-block;
+}
+
+.appointment-form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.appointment-form-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.appointment-form-textarea {
+  height: 100px;
+}
+
+.appointment-form-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+}
+
+.appointment-form-button:hover {
+  background-color: #0056b3;
+}
+
+.appointment-form-button:focus {
+  outline: none;
+}

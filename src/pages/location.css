@@ -1,0 +1,84 @@
+/* Styling for the container of the entire component */
+.location-container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for the heading */
+.location-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Styling for the form container */
+.location-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Styling for the input field */
+.location-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the buttons container */
+.location-form > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for the "Use Current Location" button */
+.location-button-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1; /* Take up available space */
+  margin-right: 10px; /* Add some spacing between buttons */
+}
+
+.location-button-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the "Submit" button */
+.location-button-success {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1; /* Take up available space */
+}
+
+.location-button-success:hover {
+  background-color: #1f8130;
+}
+
+/* Styling for the map container */
+.map-container {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  justify-content: center; /* Hide any overflowing map */
+}
+
+
+
+

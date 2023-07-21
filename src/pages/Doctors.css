@@ -1,0 +1,126 @@
+/* Doctors.css */
+
+.doctors-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.doctors-heading {
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 6px; /* Decrease cell padding to fit more content */
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Doctors.css */
+.table-row-clickable {
+  cursor: pointer;
+}
+
+.table-row-clickable:hover {
+  background-color: #f9f9f9;
+}
+
+.results-container .doctor-name-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px; /* Decrease font size for the doctor's name button */
+  text-decoration: none;
+}
+
+/* Update the cursor on hover for the invisible button */
+.results-container .doctor-name-button:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Responsive styles for screen sizes between 320px and 768px */
+@media (min-width: 320px) and (max-width: 768px) {
+  .doctors-container {
+    padding: 10px;
+  }
+
+  .search-box {
+    align-items: flex-start;
+  }
+
+  .search-box input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px; /* Decrease font size for the search input */
+  }
+
+  /* Reset the table styles for better display on smaller screens */
+  table {
+    width: 100%;
+    font-size: 12px; /* Decrease font size for the table on smaller screens */
+  }
+}
+
+/* Responsive styles for screen sizes above 768px */
+@media (min-width: 769px) {
+  .doctors-container {
+    padding: 20px;
+  }
+
+  .search-box {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search-box input {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  /* Increase the font size for the table on larger screens */
+  table {
+    font-size: 16px; /* Increase font size for the table on larger screens */
+  }
+}

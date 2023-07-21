@@ -1,0 +1,149 @@
+.review-slider {
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden; /* Prevent content overflow at smaller screen sizes */
+}
+
+.arrow {
+  font-weight: 800;
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 2rem;
+  background: rgba(16, 16, 112, 0.928);
+  border: 2px solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.review-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 1050px;
+  max-width: 100%; /* Limit the width of the content */
+  margin: 0 20px;
+}
+
+.review-image {
+  flex: 0 0 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.review-image img {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto;
+  border-radius: 10px;
+}
+
+.review-details {
+  flex: 0 0 40%;
+  margin-left: 15px;
+}
+
+.review-title {
+  margin-top: 0;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  color: black;
+  text-align: justify;
+  margin-top: 28px;
+  font-size: 17px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.indicator-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.indicator.active {
+  background-color: #0267e3;
+}
+
+/* Responsive styles */
+
+/* 1. 320px - 767px */
+@media (min-width: 320px) and (max-width: 768px) {
+  .review-slider {
+    height: auto;
+  }
+
+  .review-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .review-image {
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+
+  .review-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .review-details {
+    flex: 0 0 100%;
+    margin-top: 0;
+  }
+
+  .indicator-container {
+    margin-top: 10px;
+  }
+}
+
+/* 2. 769px - 1279px */
+@media (min-width: 769px) and (max-width: 1279px) {
+  .review-slider {
+    height: 400px;
+  }
+
+  .review-container {
+    margin: 0 30px;
+  }
+}
+
+/* 3. 1280px - max screen resolution */
+@media (min-width: 1280px) {
+  .review-slider {
+    height: 450px;
+  }
+
+  .review-container {
+    margin: 0 40px;
+  }
+}
