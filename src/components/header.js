@@ -28,11 +28,13 @@ function Header() {
   }, []);
 
   return (
+
     <header className="header">
       <div className="header-container">
         <Link to="/" className="header-logo">
           <img src={InfowareLogo} alt="Logo" className="logo-image" />
           <span className="logo-text">The InfoWare House</span>
+
         </Link>
 
         <div className="header-buttons">
