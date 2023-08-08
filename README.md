@@ -14,9 +14,10 @@ This website is a comprehensive resource for the latest medical insights and a s
 
 ## Technologies Used
 
-- HTML5/CSS3: For structuring and styling the website, ensuring a user-friendly interface.
-- JavaScript: To enhance interactivity, provide smooth navigation, and integrate dynamic content.
-- [Add other relevant technologies]
+- HTML5/CSS3
+- JavaScript
+- ReactJS
+- Leaflet
 
 ## Project Showcase
 
