@@ -20,7 +20,7 @@ This website is a comprehensive resource for the latest medical insights and a s
 
 ## Project Showcase
 
-Explore the [Healthcare Information Hub website](https://johns-hopkins.vercel.app) to see how technology can be leveraged to disseminate critical healthcare information and bridge the gap between medical knowledge and patient care.
+Explore the [Infoware House](https://johns-hopkins.vercel.app) to see how technology can be leveraged to disseminate critical healthcare information and bridge the gap between medical knowledge and patient care.
 
 
 ## Connect with Me
