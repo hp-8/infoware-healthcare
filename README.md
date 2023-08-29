@@ -28,6 +28,7 @@ Explore the [Infoware House](https://johns-hopkins.vercel.app) to see how techno
 
 If you're interested in discussing the development process, exploring the project's features, or simply engaging in conversations about healthcare and technology, let's connect:
 
-📧 Email: your.email@example.com
+📧 Email: patadiaharsh.8@gmail.com
+
 
 Let's continue to revolutionize the healthcare space with innovative digital solutions. 🏥🚀👨‍⚕️
